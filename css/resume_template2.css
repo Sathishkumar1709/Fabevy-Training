@@ -1,0 +1,49 @@
+body{
+	font-family:'verdana','sans-serif';
+	background-image:url('../images/template2.png');
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+.wrapper{
+	display:flex;
+	margin:auto;
+	width:1005px;
+}
+.wrapper .wrapper-left{
+	width: 28%;
+    background-color: #003d74;
+    color: #fff;
+    padding-left: 42px;
+}
+.wrapper .wrapper-right{
+	width:72%;
+}
+.wrapper .wrapper-left .header-name h1{
+	font-size: 34px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.wrapper .wrapper-left .header-name h2{
+	font-size: 18.5px;
+    margin-top: -3px; 
+}
+
+.resume-section .section-title{
+	padding-top: 38px;
+    font-size: 18px;
+    font-weight: bold;
+	
+}
+
+.resume-section .section-content p{
+	font-size: 14px;
+    line-height: 20px;
+}
+
+.resume-section .section-subtitle{
+	margin-top: 22px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
