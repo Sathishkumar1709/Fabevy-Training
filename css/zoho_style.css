@@ -1,6 +1,6 @@
 body{
 	background-color:#fff;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	/*background-image:url('../images/zoho_template.png');*/
 	background-repeat:no-repeat;
 	margin:0 auto;
@@ -8,7 +8,9 @@ body{
 	min-height:7593px;
 	padding:20px;
 }
-
+#font-color{
+	color:red;
+}
 .flex-header{
 	display: flex;
     justify-content: space-between;
@@ -79,7 +81,8 @@ body{
 .f-container .box-50{
 	
 	width:50%;
-	margin-top: -8px;
+
+	box-sizing: border-box;
 
 }
 .card-product-crm{
@@ -117,7 +120,7 @@ body{
 }
 
 .card-left-crm img{
-	width: 100px;
+	width: 113px;
     height: 100px;
     margin-left: -32px;
 	
@@ -135,11 +138,12 @@ body{
 .card-right-crm h3{
 	    font-size: 31px;
 		
+		
 }
 
 .card-right-crm h5{
 	font-size: 18px;
-    padding-bottom: 0px;
+    font-weight: normal;
     line-height: 24.5px;
 		
 }
@@ -164,14 +168,14 @@ body{
 
 .card-right h5{
 	font-size: 17px;
-    padding-bottom: 0px;
+    font-weight: normal;
     line-height: 24.5px;
 		
 }
 .section-title{
 	
 	text-align:center;
-	padding-top: 35px;
+	padding-top: 110px;
 	font-weight:bold;
     padding-bottom: 46px;
 }
